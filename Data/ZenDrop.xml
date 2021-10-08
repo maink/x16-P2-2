@@ -146,5 +146,6 @@
 	<Map Number="130" MinMoneyCount="100" MaxMoneyCount="100" Disable="0" /> <!-- Abyss of Atlans 3 -->
 	<Map Number="131" MinMoneyCount="100" MaxMoneyCount="100" Disable="0" /> <!-- Scorched Canyon -->
 	<Map Number="132" MinMoneyCount="100" MaxMoneyCount="100" Disable="0" /> <!-- Red Smoke Icarus -->
-	<Map Number="133" MinMoneyCount="100" MaxMoneyCount="100" Disable="0" /> <!-- Arenil Temple-->
+	<Map Number="133" MinMoneyCount="100" MaxMoneyCount="100" Disable="0" /> <!-- Arenil Temple -->
+	<Map Number="134" MinMoneyCount="100" MaxMoneyCount="100" Disable="0" /> <!-- Ashy Aida -->
 </ZenDropSystem>

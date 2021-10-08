@@ -64,6 +64,12 @@
 		<Guardian Number="2" OptionNumber="2" FormulaID="12" LowerBound="0" UpperBound="1100" />
 		<Guardian Number="2" OptionNumber="3" FormulaID="13" LowerBound="0" UpperBound="1100" />
 		<Guardian Number="2" OptionNumber="4" FormulaID="14" LowerBound="0" UpperBound="-1" />	
+	<!-- Pierce Lion -->
+		<Guardian Number="3" OptionNumber="0" FormulaID="20" LowerBound="0" UpperBound="-1" />
+		<Guardian Number="3" OptionNumber="1" FormulaID="21" LowerBound="0" UpperBound="-1" />
+		<Guardian Number="3" OptionNumber="2" FormulaID="22" LowerBound="0" UpperBound="1100" />
+		<Guardian Number="3" OptionNumber="3" FormulaID="23" LowerBound="0" UpperBound="1100" />
+		<Guardian Number="3" OptionNumber="4" FormulaID="24" LowerBound="0" UpperBound="-1" />	
 	</OptionSettings>
 	
 	<OptionRate One="7000" Two="2000" Three="1000" Four="0" />
@@ -89,5 +95,11 @@
 		<Guardian Number="2" OptionSet="2" OptionNumber1="0" FormulaID1="15" ValueType1="0" OptionNumber2="3" FormulaID2="18" ValueType2="0" />
 		<Guardian Number="2" OptionSet="3" OptionNumber1="1" FormulaID1="16" ValueType1="0" OptionNumber2="4" FormulaID2="19" ValueType2="0" />
 		<Guardian Number="2" OptionSet="4" OptionNumber1="0" FormulaID1="15" ValueType1="0" OptionNumber2="4" FormulaID2="19" ValueType2="0" />
+	<!-- Pierce Lion -->
+		<Guardian Number="3" OptionSet="0" OptionNumber1="0" FormulaID1="25" ValueType1="0" OptionNumber2="2" FormulaID2="27" ValueType2="0" />
+		<Guardian Number="3" OptionSet="1" OptionNumber1="1" FormulaID1="26" ValueType1="0" OptionNumber2="2" FormulaID2="27" ValueType2="0" />
+		<Guardian Number="3" OptionSet="2" OptionNumber1="0" FormulaID1="25" ValueType1="0" OptionNumber2="3" FormulaID2="28" ValueType2="0" />
+		<Guardian Number="3" OptionSet="3" OptionNumber1="1" FormulaID1="26" ValueType1="0" OptionNumber2="4" FormulaID2="29" ValueType2="0" />
+		<Guardian Number="3" OptionSet="4" OptionNumber1="0" FormulaID1="25" ValueType1="0" OptionNumber2="4" FormulaID2="29" ValueType2="0" />
 	</EliteOptionSettings>
 </GuardianItemOption>

@@ -399,18 +399,21 @@
 			<Skill Index="44" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="482" ValueType="1" Name="Power Slash Strengthener" />
 			<Skill Index="45" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="483" ValueType="1" Name="Flame Strengthener" />
 			<Skill Index="46" ReqMinPoint="1" MaxPoint="20" ParentSkill1="480" ParentSkill2="0" MagicNumber="484" ValueType="1" Name="Blast Strengthener" />
-			<Skill Index="48" ReqMinPoint="1" MaxPoint="20" ParentSkill1="481" ParentSkill2="482" MagicNumber="485" ValueType="0" Name="Weapon Mastery" />
-			<Skill Index="49" ReqMinPoint="1" MaxPoint="20" ParentSkill1="483" ParentSkill2="0" MagicNumber="486" ValueType="1" Name="Inferno Strengthener" />
+			<Skill Index="48" ReqMinPoint="1" MaxPoint="20" ParentSkill1="482" ParentSkill2="0" MagicNumber="485" ValueType="0" Name="Weapon Mastery" />
+			<Skill Index="49" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="490" ValueType="1" Name="Fire Slash Strengthener" />
 			<Skill Index="50" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="487" ValueType="1" Name="Evil Spirit Strengthener" />
 			<Skill Index="51" ReqMinPoint="1" MaxPoint="20" ParentSkill1="487" ParentSkill2="0" MagicNumber="488" ValueType="0" Name="Magic Mastery" />
 			<Skill Index="52" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="334" ValueType="0" Name="Maximum Life Increase" />
-			<Skill Index="54" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="490" ValueType="1" Name="Blood Attack Strengthener" />
-			<Skill Index="55" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="489" ValueType="1" Name="Ice Strengthener" />
+			<Skill Index="53" ReqMinPoint="1" MaxPoint="20" ParentSkill1="490" ParentSkill2="0" MagicNumber="493" ValueType="1" Name="Fire Slash Mastery" />
+			<Skill Index="55" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="496" ValueType="1" Name="Gigantic Storm Strengthener" />
 			<Skill Index="56" ReqMinPoint="1" MaxPoint="20" ParentSkill1="334" ParentSkill2="0" MagicNumber="338" ValueType="0" Name="Maximum Mana Increase" />
-			<Skill Index="57" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="492" ValueType="1" Name="Flame Strike Strengthener" />
+			<Skill Index="57" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="865" ValueType="0" Name="Spiral Charge Strenghtener" />
+			<Skill Index="58" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="867" ValueType="0" Name="Crusher Charge Strenghtener" />
+			<Skill Index="59" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="869" ValueType="0" Name="Elemental Charge Strenghtener" />
 			<Skill Index="60" ReqMinPoint="1" MaxPoint="20" ParentSkill1="338" ParentSkill2="0" MagicNumber="341" ValueType="0" Name="Maximum AG Increase" />
-			<Skill Index="62" ReqMinPoint="1" MaxPoint="20" ParentSkill1="490" ParentSkill2="0" MagicNumber="493" ValueType="0" Name="Fire Slash Mastery" />
-			<Skill Index="63" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="496" ValueType="1" Name="Gigantic Storm Strengthener" />
+			<Skill Index="61" ReqMinPoint="10" MaxPoint="10" ParentSkill1="865" ParentSkill2="0" MagicNumber="866" ValueType="0" Name="Spiral Charge Mastery" />
+			<Skill Index="62" ReqMinPoint="10" MaxPoint="10" ParentSkill1="867" ParentSkill2="0" MagicNumber="868" ValueType="0" Name="Crusher Charge Mastery" />
+			<Skill Index="63" ReqMinPoint="10" MaxPoint="10" ParentSkill1="869" ParentSkill2="0" MagicNumber="870" ValueType="0" Name="Elemental Charge Mastery" />
 			<Skill Index="64" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="743" ValueType="0" Name="Boost maximum vitality" />
 			<Skill Index="66" ReqMinPoint="10" MaxPoint="10" ParentSkill1="0" ParentSkill2="0" MagicNumber="344" ValueType="0" Name="Blood Storm" />
 			<Skill Index="67" ReqMinPoint="10" MaxPoint="10" ParentSkill1="0" ParentSkill2="0" MagicNumber="495" ValueType="0" Name="Earth Prison" />
@@ -419,14 +422,14 @@
 		</Tree>
 		<Tree Type="2"> <!-- Ultimatum - Defense / Attack Improvement (Duel Master) -->
 			<Skill Index="73" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="347" ValueType="0" Name="Attack Rate" />
-			<Skill Index="77" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="348" ValueType="0" Name="Two-handed Sword Strengthener" />
+			<Skill Index="77" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="871" ValueType="0" Name="Two-handed Sword Strenghtener" />
 			<Skill Index="78" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="349" ValueType="0" Name="One-handed Sword Strengthener" />
 			<Skill Index="79" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="397" ValueType="0" Name="One-handed Staff Strengthener" />
-			<Skill Index="80" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="398" ValueType="0" Name="Two-handed Staff Strengthener" />
-			<Skill Index="81" ReqMinPoint="1" MaxPoint="20" ParentSkill1="348" ParentSkill2="0" MagicNumber="352" ValueType="0" Name="Two-handed Sword Mastery" />
+			<Skill Index="80" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="872" ValueType="0" Name="Two-handed Staff Strenghtener" />
+			<Skill Index="81" ReqMinPoint="1" MaxPoint="10" ParentSkill1="871" ParentSkill2="0" MagicNumber="873" ValueType="0" Name="Two-handed Sword Mastery" />
 			<Skill Index="82" ReqMinPoint="1" MaxPoint="10" ParentSkill1="349" ParentSkill2="0" MagicNumber="353" ValueType="0" Name="One-handed Sword Mastery" />
 			<Skill Index="83" ReqMinPoint="1" MaxPoint="10" ParentSkill1="397" ParentSkill2="0" MagicNumber="400" ValueType="0" Name="One-handed Staff Mastery" />
-			<Skill Index="84" ReqMinPoint="1" MaxPoint="20" ParentSkill1="398" ParentSkill2="0" MagicNumber="401" ValueType="0" Name="Two-handed Staff Mastery" />
+			<Skill Index="84" ReqMinPoint="1" MaxPoint="10" ParentSkill1="872" ParentSkill2="0" MagicNumber="874" ValueType="0" Name="Two-handed Staff Mastery" />
 			<Skill Index="86" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="357" ValueType="0" Name="Mana Reduction" />
 			<Skill Index="87" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="358" ValueType="0" Name="Monster Attack SD Increment" />
 			<Skill Index="88" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="359" ValueType="0" Name="Monster Attack Life Increment" />
@@ -837,7 +840,9 @@
 		<Tree Type="1">
 			<Skill Index="37" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="325" ValueType="0" Name="Attack Success Rate Increase" />
 			<Skill Index="49" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="386" ValueType="0" Name="Magic Mastery" />
+			<Skill Index="53" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="828" ValueType="1" Name="Fixed Fire Strenghtener" />
 			<Skill Index="54" ReqMinPoint="10" MaxPoint="10" ParentSkill1="0" ParentSkill2="0" MagicNumber="820" ValueType="1" Name="Dark Plasma Strenghtener" />
+			<Skill Index="57" ReqMinPoint="1" MaxPoint="10" ParentSkill1="828" ParentSkill2="0" MagicNumber="829" ValueType="1" Name="Fixed Fire Mastery" />
 			<Skill Index="58" ReqMinPoint="10" MaxPoint="20" ParentSkill1="820" ParentSkill2="0" MagicNumber="821" ValueType="1" Name="Dark Plasma Proficiency" />
 			<Skill Index="52" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="334" ValueType="0" Name="Maximum Life Increase" />
 			<Skill Index="62" ReqMinPoint="1" MaxPoint="20" ParentSkill1="821" ParentSkill2="0" MagicNumber="822" ValueType="1" Name="Dark Plasma Mastery" />

@@ -84,4 +84,5 @@
 	<Move Level="1050" MapNumber="131" StartX="1" StartY="1" EndX="255" EndY="255" Name="Scorched Canyon" />
 	<Move Level="1070" MapNumber="132" StartX="1" StartY="1" EndX="255" EndY="255" Name="Red Smoke Icarus" />
 	<Move Level="1100" MapNumber="133" StartX="1" StartY="1" EndX="255" EndY="255" Name="Arenil Temple" />
+	<Move Level="1130" MapNumber="134" StartX="1" StartY="1" EndX="255" EndY="255" Name="Ashe Aida" />
 </MoveSettings>

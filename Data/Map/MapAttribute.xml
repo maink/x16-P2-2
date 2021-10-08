@@ -154,5 +154,6 @@
 		<Map Number="131" ViewRange="15" PvPConfig="0" ItemDropRateBonus="0" ExpBonus="0.0" MasterExpBonus="0.0" MajesticExpBonus="0.0" VipLevel="0" PkLevelIncrease="1" RegenOnSamePlace="0" BlockEntry="0" PartyUserMove="1" Enable3D="1" EnableMuHelper="1" EnableZenDrop="1" /> <!-- Scorched Canyon -->
 		<Map Number="132" ViewRange="15" PvPConfig="0" ItemDropRateBonus="0" ExpBonus="0.0" MasterExpBonus="0.0" MajesticExpBonus="0.0" VipLevel="0" PkLevelIncrease="1" RegenOnSamePlace="0" BlockEntry="0" PartyUserMove="1" Enable3D="1" EnableMuHelper="1" EnableZenDrop="1" /> <!-- Red Smoke Icarus -->
 		<Map Number="133" ViewRange="15" PvPConfig="0" ItemDropRateBonus="0" ExpBonus="0.0" MasterExpBonus="0.0" MajesticExpBonus="0.0" VipLevel="0" PkLevelIncrease="1" RegenOnSamePlace="0" BlockEntry="0" PartyUserMove="1" Enable3D="1" EnableMuHelper="1" EnableZenDrop="1" /> <!-- Arenil Temple -->
+		<Map Number="134" ViewRange="15" PvPConfig="0" ItemDropRateBonus="0" ExpBonus="0.0" MasterExpBonus="0.0" MajesticExpBonus="0.0" VipLevel="0" PkLevelIncrease="1" RegenOnSamePlace="0" BlockEntry="0" PartyUserMove="1" Enable3D="1" EnableMuHelper="1" EnableZenDrop="1" /> <!-- Ashy Aida -->
 	</Config>
 </MapAttribute>

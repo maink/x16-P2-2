@@ -99,6 +99,8 @@
 		<Formula ID="4" Data="(%d*0.3)" /> <!-- ItemDropLevel -->
 		<Formula ID="5" Data="(%d/3.5)" /> <!-- ItemDropLevel -->
 		<Formula ID="6" Data="(%d/100)*(%d/20)" /> <!-- ItemDropLevel, PlayerLevel -->
+		<Formula ID="7" Data="(((%d/200)+((%d*4)^1.11))" /> <!-- ItemDropLevel, PlayerLevel -->
+		<Formula ID="8" Data="(((%d/200)+((%d*3)^1.1))" /> <!-- ItemDropLevel, PlayerLevel -->
 	</ExcellentOption>
 	
 	<SetAddStatOption>
@@ -388,6 +390,22 @@
 		<Formula ID="268" Data="((((((5+%d)^1.6)/5)*4)/5)*3.5)" /> <!-- SkillPoint -->
 		<Formula ID="269" Data="(((((%d^1.3)*4.1)/3.35)+3.1)*0.8)" /> <!-- SkillPoint -->
 		<Formula ID="270" Data="(((((%d^1.45)*4)/3)+3.5)*0.85)" /> <!-- SkillPoint -->
+		<Formula ID="271" Data="(0.9+(((((((%d-35)^3)+40440)/600)/7.5))))*4" /> <!-- SkillPoint -->
+		<Formula ID="272" Data="(0.8+(((((((%d-30)^3)+25000)/499)/50)*100)/12))*6" /> <!-- SkillPoint -->
+		<Formula ID="273" Data="((((((2+%d)^2)/10)*6)/7)*7.5)" /> <!-- SkillPoint -->
+		<Formula ID="274" Data="((((((8+%d)^2)/10)*4)/7)*9.5)" /> <!-- SkillPoint -->
+		<Formula ID="275" Data="(((((%d^1.3)*6.1)/3)+1.1)*2)" /> <!-- SkillPoint -->
+		<Formula ID="276" Data="(((((%d^1.3)*4.1)/3.35)+3.1)*1.5)" /> <!-- SkillPoint -->
+		<Formula ID="277" Data="(((((%d^1.3)*4.1)/3.35)+3.1)*2.5)" /> <!-- SkillPoint -->
+		<Formula ID="278" Data="%d/10" /> <!-- SkillPoint -->
+		<Formula ID="279" Data="%d/10" /> <!-- SkillPoint -->
+		<Formula ID="280" Data="%d/10" /> <!-- SkillPoint -->
+		<Formula ID="281" Data="(((((%d^1.3)*3.5)/3.35)+3.1)*4.5)" /> <!-- SkillPoint -->
+		<Formula ID="282" Data="(((((%d^1.3)*3.5)/3.35)+3.1)*2.8)" /> <!-- SkillPoint -->
+		<Formula ID="283" Data="(1+((((((%d)-30)^3)+25000)/499)/8))-0.07475" /> <!-- SkillPoint -->
+		<Formula ID="284" Data="(1+((((((%d)-30)^3)+25000)/499)/8))-0.07475" /> <!-- SkillPoint -->
+		<Formula ID="285" Data="((5+(((%d-47)^3)+102000)/860)/2)" /> <!-- SkillPoint -->
+		<Formula ID="286" Data="%d*1" /> <!-- SkillPoint -->
 	</SkillTree>
 	<SetOption>
 		<Formula ID="0" Data="((((%d*1.25)^1.48)+5)/1.1)" /> <!-- ItemLevel -->
@@ -496,6 +514,17 @@
 		<Formula ID="22" Data="250" /> <!--  -->
 		<Formula ID="23" Data="150" /> <!--  -->
 		<Formula ID="24" Data="30" /> <!--  -->
+		<Formula ID="25" Data="(%d*1.5)+(%d/2.5)" /> <!--  -->
+		<Formula ID="26" Data="((%d*1.5)+(%d/2.5))/8*(%d/2)" /> <!--  -->
+		<Formula ID="27" Data="(%d*1.9)+900" /> <!--  -->
+		<Formula ID="28" Data="(%d/2)" /> <!--  -->
+		<Formula ID="29" Data="(10+((%d/2)*20))" /> <!--  -->
+		<Formula ID="30" Data="((%d/4)+(%d*0.2))*2.4" /> <!--  -->
+		<Formula ID="31" Data="((%d/10)+(%d/30))*2" /> <!--  -->
+		<Formula ID="32" Data="((%d/100)+(%d/50))*0.4" /> <!--  -->
+		<Formula ID="33" Data="((%d/10)+(%d/30))*2" /> <!--  -->
+		<Formula ID="34" Data="((%d/15)+(%d*0.1))*1.5" /> <!--  -->
+		<Formula ID="35" Data="((%d/10)+(%d/30))*2" /> <!--  -->
 	</Summoner>
 	<GuardianItem>
 		<Formula ID="0" Data="20+((9+%d)/2)^2" /> <!-- ItemLevel -->
@@ -518,12 +547,26 @@
 		<Formula ID="17" Data="((3.9+(%d/10))^4.2)" /> <!-- ItemLevel -->
 		<Formula ID="18" Data="((1.6+(0.5*%d))^1.72)" /> <!-- ItemLevel -->
 		<Formula ID="19" Data="((4+(%d/10))^4.2)" /> <!-- ItemLevel -->
+		<Formula ID="20" Data="(56+((15+%d)/2)^2)" /> <!-- ItemLevel -->
+		<Formula ID="21" Data="(56+((15+%d)/2)^2)" /> <!-- ItemLevel -->
+		<Formula ID="22" Data="(3+((%d/10)*1.9)^1.5)" /> <!-- ItemLevel -->
+		<Formula ID="23" Data="(3+((%d/10)*1.6)^1.49)" /> <!-- ItemLevel -->
+		<Formula ID="24" Data="(2+((3.9+%d)/2)^1.5)" /> <!-- ItemLevel -->
+		<Formula ID="25" Data="((5.5+(%d/10))^3.9)" /> <!-- ItemLevel -->
+		<Formula ID="26" Data="((5.25+(%d/10))^4.2)" /> <!-- ItemLevel -->
+		<Formula ID="27" Data="((4.4+(%d/10))^4.2)" /> <!-- ItemLevel -->
+		<Formula ID="28" Data="((2.1+(0.5*%d))^1.72)" /> <!-- ItemLevel -->
+		<Formula ID="29" Data="((4.5+(%d/10))^4.2)" /> <!-- ItemLevel -->
+		<Formula ID="30" Data="(%d*3+(%d/5))" /> <!-- ItemLevel -->
 	</GuardianItem>
 	<Earrings>
 		<Formula ID="0" Data="(((%d*5)+70)/1.8)" /> <!-- ItemLevel -->
 		<Formula ID="1" Data="(((%d*5)+65)/1)" /> <!-- ItemLevel -->
 		<Formula ID="2" Data="(((%d*5)+102)/1.8)" /> <!-- ItemLevel -->
 		<Formula ID="3" Data="(((%d*5)+95)/1)" /> <!-- ItemLevel -->
+		<Formula ID="4" Data="(((%d*5)+134)/1.8)" /> <!-- ItemLevel -->
+		<Formula ID="5" Data="(((%d*5)+125)/1)" /> <!-- ItemLevel -->
+		<Formula ID="6" Data="(((%d*6)+60)/1)" /> <!-- ItemLevel -->
 	</Earrings>
 	<Group11>
 		<Formula ID="0" Data="0" /> <!-- empty -->

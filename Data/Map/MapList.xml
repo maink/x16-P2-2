@@ -161,6 +161,7 @@
 		<Map Number="131" File="131_ScorchedCanyon.att" />
 		<Map Number="132" File="132_RedSmokeIcarus.att" />
 		<Map Number="133" File="133_ArenilTemple.att" />
+		<Map Number="134" File="134_AshyAida.att" />
 	</DefaultMaps>
 	
 	<CrywolfEventAttr>

@@ -552,5 +552,11 @@
 		<Tag Id="5" MapNumber="133" X="140" Y="033" Name="Arenil - Earth Zone" />
 		<Tag Id="6" MapNumber="133" X="155" Y="193" Name="Arenil - Wind Zone"  />
 		<Tag Id="7" MapNumber="133" X="115" Y="033" Name="Arenil - Darkness Zone" />	
+	<!-- Ashy Aida -->
+		<Tag Id="0" MapNumber="134" X="20" Y="59" Name="Fire Elite Zone" />
+		<Tag Id="1" MapNumber="134" X="47" Y="108" Name="Water Elite Zone" />
+		<Tag Id="2" MapNumber="134" X="168" Y="169" Name="Earth Elite Zone" />
+		<Tag Id="3" MapNumber="134" X="97" Y="161" Name="Wind Elite Zone" />
+		<Tag Id="4" MapNumber="134" X="226" Y="130" Name="Darkness Elite Zone" />
 	</TypeTwo>
 </MiniMapObjects>

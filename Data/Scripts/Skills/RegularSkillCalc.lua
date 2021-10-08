@@ -96,7 +96,8 @@ function WizardSoulSeekerCalcDamage(InDamage, Energy)
 end
 
 -- SkillID: 19, 20, 21, 22, 23, 41, 43, 44, 49, 57, Falling Slash, Lunge, Uppercut,
--- Cyclone, Slash, Twisting Slash, Death Stab, Crescent Moon Slash, Fire Breath, Spiral Slash
+-- Cyclone, Slash, Twisting Slash, Death Stab, Crescent Moon Slash, Fire Breath,
+-- Spiral Slash
 function Knight_Gladiator_CalcSkillBonus(SkillID, Class, InDamage, Strength, Energy)	
 	local OutDamage = 0
 	
@@ -363,6 +364,59 @@ function GladiatorMeteorStrikeCalcDamage(InDamage, Energy)
 	local OutDamage = InDamage
 	
 	return OutDamage
+end
+
+-- SkillID: 2012, Chaos Blade
+function GladiatorChaosBlade(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount)
+    local OutDamage = 0
+    
+    if (BarrageCount == 1) then
+        OutDamage = (InDamage * 0.33) * ( 200 + ( Energy / 10 ) ) / 100;
+    elseif (BarrageCount == 2) then
+        OutDamage = (InDamage * 0.33) * ( 200 + ( Energy / 10 ) ) / 100;
+    elseif (BarrageCount == 3) then
+        OutDamage = (InDamage * 0.33) * ( 200 + ( Energy / 10 ) ) / 100;		
+	elseif(BarrageCount == 4) then -- Explosion
+		OutDamage = 10000
+    end
+    return OutDamage
+end
+
+-- SkillID: 2013, Havok Spear
+function GladiatorHavokSpear(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount)
+    local OutDamage = 0
+    
+    if (BarrageCount == 1) then
+        OutDamage = (InDamage * 0.33) * ( 200 + ( Energy / 10 ) ) / 100;
+    elseif (BarrageCount == 2) then
+        OutDamage = (InDamage * 0.33) * ( 200 + ( Energy / 10 ) ) / 100;
+    elseif (BarrageCount == 3) then
+        OutDamage = (InDamage * 0.33) * ( 200 + ( Energy / 10 ) ) / 100;	
+	elseif(BarrageCount == 4) then -- Explosion
+		OutDamage = 10000
+    end
+    return OutDamage
+end
+
+-- SkillID: 2014, Spiral Charge
+function GladiatorSpiralCharge(Level, MasterLevel, Strength, Dexterity, Vitality, Energy)
+	local DamageUp = Strength
+	local DefenseUp = Strength / 15
+	return DamageUp, DefenseUp
+end
+
+-- SkillID: 2015, Crusher Charge
+function GladiatorCrusherCharge(Level, MasterLevel, Strength, Dexterity, Vitality, Energy)
+	local AtkSpdUp = Strength / 15
+	local DefenseUp = Strength / 15
+	return AtkSpdUp, DefenseUp
+end
+
+-- SkillID: 2016, Elemental Charge
+function GladiatorElementalCharge(Level, MasterLevel, Strength, Dexterity, Vitality, Energy)
+	local DamageUp = Strength
+	local DefenseUp = Strength / 15
+	return DamageUp, DefenseUp
 end
 
 -- SkillID: 60 ,61, 62, 65, 74, 78, Force, Fire Burst, Earthshake, Electric Spike, Fire Blast, Fire Scream

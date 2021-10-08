@@ -219,6 +219,42 @@ function DarkBlast_4thEnchant_Gladiator(InDamage, Strength, Energy)
 	return OutDamage
 end
 
+-- SkillID: 1214, Chaos Blade Enhancement
+function ChaosBlade_4thEnchant_Gladiator(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount)
+    local OutDamage = 0
+    
+    if (BarrageCount == 1) then
+        OutDamage = (InDamage * 0.33) * ( 200 + ( Energy / 10 ) ) / 100;
+    elseif (BarrageCount == 2) then
+        OutDamage = (InDamage * 0.33) * ( 200 + ( Energy / 10 ) ) / 100;
+    elseif (BarrageCount == 3) then
+        OutDamage = (InDamage * 0.33) * ( 200 + ( Energy / 10 ) ) / 100;
+    elseif (BarrageCount == 4) then
+        OutDamage = (InDamage * 0.33) * ( 200 + ( Energy / 10 ) ) / 100;		
+	elseif(BarrageCount == 5) then -- Explosion
+		OutDamage = 10000
+    end
+    return OutDamage
+end
+
+-- SkillID: 2015, Havok Spear Enhancement
+function HavokSpear_4thEnchant_Gladiator(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount)
+    local OutDamage = 0
+    
+    if (BarrageCount == 1) then
+        OutDamage = (InDamage * 0.33) * ( 200 + ( Energy / 10 ) ) / 100;
+    elseif (BarrageCount == 2) then
+        OutDamage = (InDamage * 0.33) * ( 200 + ( Energy / 10 ) ) / 100;
+    elseif (BarrageCount == 3) then
+        OutDamage = (InDamage * 0.33) * ( 200 + ( Energy / 10 ) ) / 100;
+    elseif (BarrageCount == 4) then
+        OutDamage = (InDamage * 0.33) * ( 200 + ( Energy / 10 ) ) / 100;		
+	elseif(BarrageCount == 5) then -- Explosion
+		OutDamage = 10000
+    end
+    return OutDamage
+end
+
 function MagicArrow_4thEnchant_RuneWizard(InDamage, Strength, Dexterity, Vitality, Energy)
 	local OutDamage = InDamage
 	

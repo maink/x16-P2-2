@@ -105,7 +105,11 @@
 		<Item Cat="14" Index="463" Level="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="700" /> <!-- [Level 4] Monster Soul Converter -->
 		<Item Cat="14" Index="464" Level="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="800" /> <!-- [Level 5] Monster Soul Converter -->
 		<Item Cat="14" Index="497" Level="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="25000" /> <!-- Glory of Honor -->
+		<Item Cat="20" Index="77" Level="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="25000" /> <!-- Blood Crafting Frame -->
 		<Item Cat="14" Index="498" Level="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="50000" /> <!-- Ice Dragon Seal -->
+		<Item Cat="14" Index="510" Level="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="50000" /> <!-- Pierce Lion's Seal -->
+		<Item Cat="12" Index="509" Level="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="30000" /> <!-- Pentagram Emblem -->
+		<Item Cat="12" Index="510" Level="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="20000" /> <!-- Ertel Emblem -->
 	</Character>
 	<Character Class="0" Name="Dark Wizard">
 		<Item Cat="13" Index="359" Level="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="50000" /> <!-- Bloodangel Armor of Sealed Transcendence -->
@@ -128,10 +132,10 @@
 		<Item Cat="13" Index="354" Level="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="50000" /> <!-- Bloodangel Boots of Sealed Fury -->
 		<Item Cat="0" Index="42" Level="0" Skill="0" Luck="-1" Option="0" Exc="-10" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="100000" /> <!-- Bloodangel Sword -->
 		<Item Cat="12" Index="289" Level="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="1000" /> <!-- Orb of Fire Blow -->
-		<Item Cat="14" Index="499" Level="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="1000" /> <!-- Offensive Knight Conversion Order -->
-		<Item Cat="14" Index="500" Level="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="1000" /> <!-- Defensive Knight Conversion Order -->
-		<Item Cat="14" Index="486" Level="0" Skill="0" Luck="-1" Option="0" Exc="-10" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="100000" /> <!-- Sword Blow Bead -->
-		<Item Cat="6" Index="44" Level="0" Skill="0" Luck="0" Option="0" Exc="-10" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="1000" /> <!-- Bloodangel Shield -->
+		<Item Cat="14" Index="499" Level="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="30000" /> <!-- Offensive Knight Conversion Order -->
+		<Item Cat="14" Index="500" Level="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="10000" /> <!-- Defensive Knight Conversion Order -->
+		<Item Cat="12" Index="486" Level="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="1000" /> <!-- Sword Blow Bead -->
+		<Item Cat="6" Index="44" Level="0" Skill="0" Luck="0" Option="0" Exc="-10" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="100000" /> <!-- Bloodangel Shield -->
 	</Character>
 	<Character Class="2" Name="Fairy Elf">
 		<Item Cat="13" Index="363" Level="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="50000" /> <!-- Bloodangel Armor of Sealed Flurry -->
@@ -159,12 +163,16 @@
 		<Item Cat="13" Index="378" Level="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="30000" /> <!-- Bloodangel Gloves of Sealed Captivation -->
 		<Item Cat="5" Index="41" Level="0" Skill="0" Luck="-1" Option="0" Exc="-10" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="100000" /> <!-- Bloodangel Staff -->
 		<Item Cat="0" Index="44" Level="0" Skill="0" Luck="-1" Option="0" Exc="-10" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="100000" /> <!-- Bloodangel Magic Sword -->
+		<Item Cat="0" Index="89" Level="0" Skill="0" Luck="-1" Option="0" Exc="-10" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="100000" /> <!-- Bloodangel Magic Two Hand Sword -->
 		<Item Cat="14" Index="396" Level="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="30000" /> <!-- Attack MG Conversion Order -->
 		<Item Cat="14" Index="397" Level="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="10000" /> <!-- Magic MG Conversion Order -->
 		<Item Cat="12" Index="297" Level="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="1000" /> <!-- Orb of Ice Blood -->
 		<Item Cat="12" Index="298" Level="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="1000" /> <!-- Orb of Fire Blood -->
 		<Item Cat="12" Index="299" Level="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="1000" /> <!-- Scroll of Dark Blast -->
 		<Item Cat="12" Index="300" Level="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="1000" /> <!-- Scroll of Meteor Strike -->
+		<Item Cat="12" Index="162" Level="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="1000" /> <!-- Chaos Blade Bead -->
+		<Item Cat="12" Index="163" Level="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="1000" /> <!-- Havok Spear Scroll -->
+
 	</Character>
 	<Character Class="4" Name="Dark Lord">
 		<Item Cat="13" Index="379" Level="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="50000" /> <!-- Bloodangel Armor of Sealed Conquest -->

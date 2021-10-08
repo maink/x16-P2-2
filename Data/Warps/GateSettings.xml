@@ -566,4 +566,9 @@
 	<Gate Index="640" Flag="2" MapNumber="133" StartX="120" StartY="185" EndX="131" EndY="186" Target="0" Direction="0" MinLevel="1100" GoToGate="-1" Name="" />
 	<Gate Index="641" Flag="1" MapNumber="133" StartX="123" StartY="190" EndX="128" EndY="195" Target="642" Direction="0" MinLevel="1100" GoToGate="-1" Name="" />
 	<Gate Index="642" Flag="2" MapNumber="133" StartX="127" StartY="26" EndX="132" EndY="28" Target="0" Direction="0" MinLevel="1100" GoToGate="-1" Name="" />
+	<Gate Index="643" Flag="0" MapNumber="134" StartX="122" StartY="29" EndX="128" EndY="31" Target="0" Direction="0" MinLevel="1130" GoToGate="643" Name="" />
+	<Gate Index="644" Flag="1" MapNumber="33" StartX="115" StartY="112" EndX="119" EndY="113" Target="645" Direction="0" MinLevel="1130" GoToGate="-1" Name="" />
+	<Gate Index="645" Flag="2" MapNumber="134" StartX="122" StartY="29" EndX="128" EndY="31" Target="0" Direction="0" MinLevel="1130" GoToGate="-1" Name="" />
+	<Gate Index="646" Flag="1" MapNumber="134" StartX="124" StartY="25" EndX="127" EndY="26" Target="647" Direction="0" MinLevel="1130" GoToGate="-1" Name="" />
+	<Gate Index="647" Flag="2" MapNumber="33" StartX="115" StartY="108" EndX="120" EndY="109" Target="0" Direction="0" MinLevel="1130" GoToGate="647" Name="" />
 </GateSettings>

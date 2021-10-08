@@ -323,13 +323,18 @@ function SlayerMagicDamageCalc(Energy)
 end
 
 -- Character Magic Damage - (Gun Crusher, Gun Breaker, Master Gun Breaker)
-function GunCrusherMagicDamageCalc(Energy)
+function GunCrusherMagicDamageCalc(Energy, IsFixedFireActive)
 	local MagicDamageMin = 0
 	local MagicDamageMax = 0
 	
-	MagicDamageMin = Energy / 8 -- Minimum Magic Damage
-	MagicDamageMax = Energy / 4 -- Maximum Magic Damage
-	
+	if (IsFixedFireActive == 1) then
+		MagicDamageMin = Energy / 6 -- Minimum Magic Damage
+		MagicDamageMax = Energy / 3 -- Maximum Magic Damage
+	else
+		MagicDamageMin = Energy / 8 -- Minimum Magic Damage
+		MagicDamageMax = Energy / 4 -- Maximum Magic Damage
+	end
+
 	return MagicDamageMin, MagicDamageMax
 end
 
@@ -469,7 +474,11 @@ function CalcDefense(Class, Dexterity, IsSpecialBuff)
 	elseif(Class == CLASS_SLAYER) then
 		Defense = Dexterity / 5
 	elseif(Class == CLASS_GUNCRUSHER) then
-		Defense = Dexterity / 4
+		if (IsSpecialBuff == 1) then -- Fixed Fire
+			Defense = Dexterity / 8
+		else
+			Defense = Dexterity / 4
+		end
 	end
 	
 	return Defense
@@ -756,6 +765,38 @@ function ElementalDefenseCalc(Class, Dexterity, Energy)
 end
 
 -- Character Elemental Defense Success Rate - General
+function ElementalDefenseRateCalc(Class, Strength, Dexterity, Energy, Vitality, Command)
+	local DefenseRate = 0
+	
+	if(Class == CLASS_WIZARD) then
+		DefenseRate = Dexterity / 3
+	elseif(Class == CLASS_KNIGHT) then
+		DefenseRate = Dexterity / 3
+	elseif(Class == CLASS_ELF) then
+		DefenseRate = Dexterity / 4
+	elseif(Class == CLASS_GLADIATOR) then
+		DefenseRate = Dexterity / 3
+	elseif(Class == CLASS_DARKLORD) then
+		DefenseRate = Dexterity / 7
+	elseif(Class == CLASS_SUMMONER) then
+		DefenseRate = Dexterity / 4
+	elseif(Class == CLASS_RAGEFIGHTER) then
+		DefenseRate = Dexterity / 10
+	elseif(Class == CLASS_GROWLANCER) then
+		DefenseRate = Dexterity / 3
+	elseif(Class == CLASS_RUNEWIZARD) then
+		DefenseRate = Dexterity / 3
+	elseif(Class == CLASS_SLAYER) then
+		DefenseRate = Dexterity / 3
+	elseif(Class == CLASS_GUNCRUSHER) then
+		DefenseRate = Dexterity / 3
+	end
+	
+	return DefenseRate
+end
+
+
+-- Character Elemental Defense Success Rate - MvP
 function ElementalDefenseRateCalc(Class, Strength, Dexterity, Energy, Vitality, Command)
 	local DefenseRate = 0
 	

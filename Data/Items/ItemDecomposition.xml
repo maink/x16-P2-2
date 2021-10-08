@@ -34,4 +34,5 @@
 	<Decomposition Kind="3" AcquisitionCount="1" RateNormal="10000" RateRare="0" RateEpic="0" NeedMoneyManual="300" NeedMoneyAuto="1000" /> <!-- Errtel Item -->
 	<!-- <Decomposition Kind="4" AcquisitionCount="1" RateNormal="10000" RateRare="0" RateEpic="0" NeedMoneyManual="300" NeedMoneyAuto="1000" /> --> <!-- Pentagram Item -->
 	<Decomposition Kind="5" AcquisitionCount="1" RateNormal="6000" RateRare="3000" RateEpic="1000" NeedMoneyManual="300" NeedMoneyAuto="1000" /> <!-- Guardian Mount -->
+	<Decomposition Kind="6" AcquisitionCount="1" RateNormal="10000" RateRare="0" RateEpic="0" NeedMoneyManual="300" NeedMoneyAuto="1000" /> <!-- Normal expired items -->
 </ItemDecomposition>
