@@ -269,7 +269,7 @@ function SummonerMagicDamageCalc(Energy, IsSpecialBuff)
 	local CurseDamageMin = 0
 	local CurseDamageMax = 0
 	
-	if (IsSpecialBuff = 1) then -- Darkness
+	if (IsSpecialBuff == 1) then -- Darkness
 		MagicDamageMin = Energy / 18
 		MagicDamageMax = Energy / 10
 		CurseDamageMin = Energy / 9
