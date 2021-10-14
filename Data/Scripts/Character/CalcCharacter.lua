@@ -263,16 +263,23 @@ function LordMagicDamageCalc(Energy)
 end
 
 -- Character Magic Damage - (Summoner, Bloody Summoner, Dimension Master)
-function SummonerMagicDamageCalc(Energy)
+function SummonerMagicDamageCalc(Energy, IsSpecialBuff)
 	local MagicDamageMin = 0
 	local MagicDamageMax = 0
 	local CurseDamageMin = 0
 	local CurseDamageMax = 0
 	
-	MagicDamageMin = Energy / 9 -- Minimum Magic Damage
-	MagicDamageMax = Energy / 4 + 0.015 -- Minimum Magic Damage
-	CurseDamageMin = Energy / 18 -- Minimum Curse Damage
-	CurseDamageMax = Energy / 10 + 0.015 -- Minimum Curse Damage
+	if (IsSpecialBuff == 1) then -- Darkness
+		MagicDamageMin = Energy / 18
+		MagicDamageMax = Energy / 10
+		CurseDamageMin = Energy / 9
+		CurseDamageMax = Energy / 4
+	else
+		MagicDamageMin = Energy / 9
+		MagicDamageMax = Energy / 4
+		CurseDamageMin = Energy / 18
+		CurseDamageMax = Energy / 10
+	end
 	
 	return MagicDamageMin, MagicDamageMax, CurseDamageMin, CurseDamageMax
 end
@@ -765,38 +772,6 @@ function ElementalDefenseCalc(Class, Dexterity, Energy)
 end
 
 -- Character Elemental Defense Success Rate - General
-function ElementalDefenseRateCalc(Class, Strength, Dexterity, Energy, Vitality, Command)
-	local DefenseRate = 0
-	
-	if(Class == CLASS_WIZARD) then
-		DefenseRate = Dexterity / 3
-	elseif(Class == CLASS_KNIGHT) then
-		DefenseRate = Dexterity / 3
-	elseif(Class == CLASS_ELF) then
-		DefenseRate = Dexterity / 4
-	elseif(Class == CLASS_GLADIATOR) then
-		DefenseRate = Dexterity / 3
-	elseif(Class == CLASS_DARKLORD) then
-		DefenseRate = Dexterity / 7
-	elseif(Class == CLASS_SUMMONER) then
-		DefenseRate = Dexterity / 4
-	elseif(Class == CLASS_RAGEFIGHTER) then
-		DefenseRate = Dexterity / 10
-	elseif(Class == CLASS_GROWLANCER) then
-		DefenseRate = Dexterity / 3
-	elseif(Class == CLASS_RUNEWIZARD) then
-		DefenseRate = Dexterity / 3
-	elseif(Class == CLASS_SLAYER) then
-		DefenseRate = Dexterity / 3
-	elseif(Class == CLASS_GUNCRUSHER) then
-		DefenseRate = Dexterity / 3
-	end
-	
-	return DefenseRate
-end
-
-
--- Character Elemental Defense Success Rate - MvP
 function ElementalDefenseRateCalc(Class, Strength, Dexterity, Energy, Vitality, Command)
 	local DefenseRate = 0
 	
